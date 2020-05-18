@@ -1,3 +1,9 @@
+****Updated for Software Developer Apprenticeship****
+
+Workbook week 2, Activity one
+
+This is an example of a top trumps game for Birds  
+
 <u>***Udacity Nanodegree***</u>
 
 Front End Web Design
