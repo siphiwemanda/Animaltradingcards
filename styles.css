@@ -35,11 +35,10 @@ body{
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  padding: 10px;
+  padding: 40px;
 }
 .grid-item {
 
-  border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 10px;
   font-size: 20px;
   text-align: center;
