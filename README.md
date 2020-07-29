@@ -1,3 +1,5 @@
+Improving Css and cleaning up original code 
+
 ****Updated for Software Developer Apprenticeship****
 
 Workbook week 2, Activity one

@@ -1,50 +1,122 @@
 body{
-  font-family: sans-serif;
   font-weight: lighter;
-  font-size: small;
+  background: url("img/wall.jpg")
+  no-repeat center center fixed;
+  background-size: cover;
+  font: 14px/20px "Lato", Arial, sans-serif;
+  color: #9e9e9e;
+  margin-top: 30px;
+  overflow: hidden;
 }
-
-.tradingcard {
-  border: 0.5px solid grey;
-  border-radius: 20px;
-  width: 300px;
-  padding: 20px;
-  background-color: white;
-  box-shadow:  8px 9px 19px 1px rgba(89,89,89,1);  /* used cssmatic box shadow tool */
-}
-
-.tradingcard2{
-  border: 0.5px solid grey;
-  padding: 15px;
-  width: 270px;
-}
-
-.intro{
-  font-style: italic;
-}
-
-.listone{
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-.list{
-  font-weight: bold;
-}
-.grid-container {
-  display: grid;
-  background-color: black;
-  grid-template-columns: auto auto auto;
-  padding: 40px;
-}
-.grid-item {
-
-  padding: 10px;
-  font-size: 20px;
+.slide-container {
+  margin: auto;
+  width: 600px;
   text-align: center;
 }
+.wrapper {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.card {
+  background: white;
+  width: 300px;
+  display: inline-block;
+  margin: auto;
+  border-radius: 19px;
+  position: relative;
+  text-align: center;
+  box-shadow: -1px 15px 30px -12px black;
+  z-index: 9999;
+}
+
+.card-image {
+  position: relative;
+  height: 230px;
+  margin-bottom: 35px;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+}
+
+.card-image-eagle {
+  background: url("img/eagle.png") no-repeat;
+  right: -20px;
+}
 
 
+.card-level {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 3px;
+}
 
+.card-level-eagle {
+  color: #ec9b3b;
+}
 
+.card-animal-name {
+  font-size: 26px;
+  color: black;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+
+.card-animal-description{
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.card-stats{
+  background-color: #4D5CA9;
+  font-weight: 700;
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+}
+
+.one-third {
+  width: 23%;
+  float: left;
+  padding: 20px 15px;
+}
+
+sup {
+  position: absolute;
+  bottom: 4px;
+  font-size: 45%;
+  margin-left: 2px;
+}
+
+.stat {
+  position: relative;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.stat-value {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 12px;
+}
+.no-border {
+  border-right: none;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.slick-prev {
+  left: 100px;
+  z-index: 999;
+}
+
+.slick-next {
+  right: 100px;
+  z-index: 999;
+}

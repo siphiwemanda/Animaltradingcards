@@ -2,55 +2,47 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Bird Top trumps</title>
+	<title>Animal trading cards</title>
 	<link href="styles.css" rel="stylesheet">
-
 </head>
 <body>
-<header style="font-size: 30px"> Bird vs Bird Top Trumps</header>
-<div class="grid-container">
+<div class="slide-container">
 
-	<div class="grid-item">
-		<button> Display Card One</button>
-		<div class=tradingcard>
-			<h3>Kea</h3>
-			<img src="kea.jpeg" alt="Kea" width="300" height="220">
-			<div class=tradingcard2>
-				<p class="intro"> Kea's have been nick-named "The clown of the mountains" </p>
-				<ul class="listone">
-
-					<li><span class="list">Speed</span>: 70</li>
-					<li><span class="list">Courage</span>: 100</li>
-					<li><span class="list">Strength</span>:10</li>
-					<li><span class="list">Agility</span>: 80</li>
-				</ul>
-
-				<p>A very Naughty Bird </p>
+	<div class="wrapper">
+		<div class="card eagle">
+			<div class="card-image card-image-eagle"></div>
+			<div class="card-level card-level-eagle">Level 4</div>
+			<div class="card-animal-name">The Eagle</div>
+			<div class="card-animal-description">
+				Eagles are some of the largest birds. They are at the top of the food chain. Eagles have amazing eyesight and can detect prey up to two miles away.
 			</div>
-		</div>
-	</div>
 
-	<div class="grid-item">
-		<button> Display Card Two</button>
-		<div class=tradingcard>
-			<h3>Eagle</h3>
-			<img src="eagle.jpg" alt="egeal" width="300" height="220">
-			<div class=tradingcard2>
-				<p class="intro"> "I fly yes i do" </p>
-				<ul class="listone">
+			<div class="card-stats clearfix">
+				<div class="one-third">
+					<div class="stat">20<sup>S</sup></div>
+					<div class="stat-value">Training</div>
+				</div>
 
-					<li><span class="list">Speed</span>: 100</li>
-					<li><span class="list">Courage</span>: 80</li>
-					<li><span class="list">Strength</span>: 100</li>
-					<li><span class="list">Agility</span>: 100</li>
-				</ul>
+				<div class="one-third">
+					<div class="stat">16</div>
+					<div class="stat-value">Speed</div>
+				</div>
 
-				<p>A badass in the sky </p>
+				<div class="one-third no-border">
+					<div class="stat">150</div>
+					<div class="stat-value">Cost</div>
+				</div>
+
 			</div>
-		</div>
 
-	</div>
-</div>
+		</div> <!-- end clash-card barbarian-->
+	</div> <!-- end wrapper -->
+
+</div> <!-- end container -->
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 </body>
 </html>
 
