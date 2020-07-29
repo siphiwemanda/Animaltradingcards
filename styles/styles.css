@@ -1,6 +1,6 @@
 body{
   font-weight: lighter;
-  background: url("img/wall.jpg")
+  background: url("../img/wall.jpg")
   no-repeat center center fixed;
   background-size: cover;
   font: 14px/20px "Lato", Arial, sans-serif;
@@ -39,7 +39,7 @@ body{
 }
 
 .card-image-eagle {
-  background: url("img/eagle.png") no-repeat;
+  background: url("../img/eagle.png") no-repeat;
   right: -20px;
 }
 
