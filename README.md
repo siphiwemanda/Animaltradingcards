@@ -15,10 +15,10 @@ This project was project one of the Udacity 'Front End Nano Degree'. The origina
 
 ![Image of old project](img/keaOld.jpg)
 
-Over time as my skills have grown and developed, I have used this project two improve on my CSS  and design skills while keeping the project in line with its original goals. 
+Over time as my skills have grown and developed, I have used this project to improve on my CSS  and design skills while keeping the project in line with its original goals. 
 
 #### Current update
 
 This current iteration improves the card and card positioning as well as working on a slider method, to add more cards.
 
-![Image of old project](img/currentversion.png)
+![Image of new project](img/currentversion.png)
