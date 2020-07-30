@@ -1,28 +1,24 @@
-Improving Css and cleaning up original code 
+# **Animal Trading Cards**
 
-****Updated for Software Developer Apprenticeship****
+https://siphiwemanda.github.io/Animaltradingcards/ 
 
-Workbook week 2, Activity one
+#### Background
 
-This is an example of a top trumps game for Birds  
-https://siphiwemanda.github.io/Animaltradingcards/
+This project was project one of the Udacity 'Front End Nano Degree'. The original aims of the project were to meet the following goals: 
+- resemble the provided prototype
+- use the correct text formatting and styles
+- use correct boarders
+- the card should have a fixed card width
+- image and image tags should be correctly used
 
-<u>***Udacity Nanodegree***</u>
+### First version
 
-Front End Web Design
+![Image of old project](img/keaOld.jpg)
 
-Project One 
+Over time as my skills have grown and developed, I have used this project two improve on my CSS  and design skills while keeping the project in line with its original goals. 
 
-This project you build an animal trading card using HTML and CSS 
+#### Current update
 
-The project has to have the following attributes to pass 
+This current iteration improves the card and card positioning as well as working on a slider method, to add more cards.
 
-project had to resemble the provided prototype 
-
-use the correct text formatting and styles 
-
-use correct boarders 
-
-card should have a fixed card width
-
-an image and image tags should be correctly used  
+![Image of old project](img/currentversion.png)
